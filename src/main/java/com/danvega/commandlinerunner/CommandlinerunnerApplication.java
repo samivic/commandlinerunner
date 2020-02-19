@@ -8,6 +8,9 @@ public class CommandlinerunnerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CommandlinerunnerApplication.class, args);
+
+        //For Git Branche
+        System.out.println("Welcome Message!");
     }
 
 }
