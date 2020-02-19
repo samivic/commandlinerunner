@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public interface ImageRepository extends CrudRepository<Image, Integer> {
+public interface ImageRepository extends CrudRepository<Image, Long> {
 }
